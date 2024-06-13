@@ -1,0 +1,26 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <div style="display: flex; justify-content: space-between">
+    <route default>
+      <application name="@verint/app1" style="width: 50%"></application>
+      <application name="@verint/app2" style="width: 50%"></application>
+    </route>
+  </div>
+</single-spa-router>

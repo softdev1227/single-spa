@@ -1,0 +1,50 @@
+# Verint Single-SPA
+
+A brief description of the project.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+1. Clone the repository.
+
+## Usage
+
+1. Run the utils project locally:
+
+- Navigate to the utils directory: `cd utils`.
+- Install the dependencies: `npm install`.
+- Start the utils project: `npm start`.
+
+2. Run the app1 project locally:
+
+- Navigate to the app1 directory: `cd app1`.
+- Install the dependencies: `npm install`.
+- Start the app1 project: `npm start`.
+
+3. Run the app2 project locally:
+
+- Navigate to the app2 directory: `cd app2`.
+- Install the dependencies: `npm install`.
+- Start the app2 project: `npm start`.
+
+4. Run the root-config project locally:
+
+- Navigate to the root-config directory: `cd root-config`.
+- Install the dependencies: `npm install`.
+- Start the root-config project: `npm start`.
+
+Please make sure utils is running on port 8080 and app1 is on 8081 and app2 is on 8082
+
+## Contributing
+
+Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
